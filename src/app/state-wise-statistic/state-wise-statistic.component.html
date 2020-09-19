@@ -1,0 +1,19 @@
+<br><br>
+<div class="container">
+<div class="row">
+<div class="col col-md-4 col-sm-12 col-xs-12 col-lg-4"*ngFor="let state of Statistic"style="padding-bottom:10px;"> 
+ 
+<div class="card" style="width: 18rem;" >
+  <div class="card-body">
+    <h5 class="card-title">{{state.name}}</h5>
+    <p class="card-text">
+      Active Cases:--{{state.active}}<br>
+      Cured Cases:--{{state.cured}}<br>
+      Deaths:--{{state.death}}<br>
+      Total:--{{state.total}}<br>
+    </p>
+    
+  </div>
+</div>
+</div>
+</div></div>
